@@ -9,6 +9,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/computation', function(req, res, next) {
+
+  var x=20;
   
   res.send(`Math.log(${x}) applied to [20] is `+Math.log(20));
 });
